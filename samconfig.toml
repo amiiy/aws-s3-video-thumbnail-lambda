@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "aws-s3-thumbnail"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-njpvuq40ygmr"
+s3_prefix = "aws-s3-thumbnail"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "AppBucketName=\"test-amir-1232210\""
+image_repositories = []
